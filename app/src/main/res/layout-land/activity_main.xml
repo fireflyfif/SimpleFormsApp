@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    style="@style/myGrid"
+    tools:context="com.example.android.simpleforms.MainActivity">
+
+    <ImageView
+        style="@style/images"
+        android:src="@drawable/form_1" />
+
+    <ImageView
+        style="@style/images"
+        android:src="@drawable/form_3" />
+
+    <ImageView
+        style="@style/images"
+        android:src="@drawable/form_5" />
+
+    <ImageView
+        style="@style/images"
+        android:src="@drawable/form_7" />
+
+    <ImageView
+        style="@style/images"
+        android:src="@drawable/form_6" />
+
+    <ImageView
+        style="@style/images"
+        android:src="@drawable/form_9" />
+
+    <ImageView
+        style="@style/images"
+        android:src="@drawable/form_2" />
+
+    <ImageView
+        style="@style/images"
+        android:src="@drawable/form_30" />
+
+    <ImageView
+        style="@style/images"
+        android:src="@drawable/form_14" />
+
+    <ImageView
+        style="@style/images"
+        android:src="@drawable/form_16" />
+
+    <ImageView
+        style="@style/images"
+        android:src="@drawable/form_20" />
+
+    <ImageView
+        style="@style/images"
+        android:src="@drawable/form_25" />
+
+    <Button
+        style="@style/button"
+        android:background="@drawable/mybutton"
+        android:onClick="pushMe"
+        android:text="@string/button" />
+
+
+</GridLayout>
+

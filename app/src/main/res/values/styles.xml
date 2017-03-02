@@ -1,0 +1,46 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccentGreen</item>
+    </style>
+
+    <!-- GridLayout. -->
+    <style name="myGrid" parent="AppTheme">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:alignmentMode">alignBounds</item>
+        <item name="android:columnCount">3</item>
+        <item name="android:rowCount">6</item>
+        <item name="android:stretchMode">columnWidth</item>
+        <item name="android:useDefaultMargins">false</item>
+        <item name="android:verticalSpacing">@dimen/grid_vertical_space</item>
+    </style>
+
+    <!-- Button. -->
+    <style name="button" parent="AppTheme">
+        <item name="android:layout_column">1</item>
+        <item name="android:layout_row">5</item>
+        <item name="android:layout_columnSpan">1</item>
+        <item name="android:layout_marginTop">@dimen/button_marginTop</item>
+        <item name="android:layout_gravity">fill</item>
+        <item name="android:textColor">@color/colorAccentGreen</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/button_textSize</item>
+    </style>
+
+    <!-- ImageView. -->
+    <style name="images" parent="AppTheme">
+        <item name="android:layout_width">@dimen/images_weight</item>
+        <item name="android:layout_height">@dimen/images_height</item>
+        <item name="android:layout_columnWeight">1</item>
+        <item name="android:layout_rowWeight">1</item>
+    </style>
+
+</resources>
